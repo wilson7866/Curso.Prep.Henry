@@ -52,6 +52,7 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
+  return palabras.join(' ');
 
 }
 
@@ -108,7 +109,16 @@ function multiplicarArgumentos() {
   // Si no se pasan argumentos devuelve 0
   // Si se pasa un argumento, simplemente devuélvelo
   // Tu código:
+  if(arguments.length===0){
+    return 0;
+  }
+  var resul=1;
+  for(var i=0; i<arguments.length; i++){
+    resul= resul*arguments[i];
+  }
+  return resul;
 }
+
 
 // No modificar nada debajo de esta línea
 // --------------------------------
