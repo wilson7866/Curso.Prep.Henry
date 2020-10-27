@@ -4,7 +4,12 @@
 		img{
 			width: 400px;
 		}
+		body{
+			text-align: center;
+		}
+
 		#thirdDiv{
+			margin: 20px auto;
 			height: 600px;
 			width: 500px;
 			background-color: #C8BFC4;
